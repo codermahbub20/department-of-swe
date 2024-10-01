@@ -5,11 +5,12 @@ const Navbar = () => {
 
     const navLinks = <>
         <li><NavLink to="/">Home</NavLink></li>
-        <li><NavLink to="/about">Academics</NavLink></li>
-        <li><NavLink to="/online-booking">Research</NavLink></li>
-        <li><NavLink to="/contact">Admission</NavLink></li>
-        <li><NavLink to="/tracking">Faculty</NavLink></li>
-        <li><NavLink to="/online-tracking">SWE Innovators Forum</NavLink></li>
+        <li><NavLink to="/academics">Academics</NavLink></li>
+        <li><NavLink to="/research">Research</NavLink></li>
+        <li><NavLink to="/admission">Admission</NavLink></li>
+        <li><NavLink to="/faculty">Faculty</NavLink></li>
+        <li><NavLink to="/playground">PlayGround</NavLink></li>
+        <li><NavLink to="/sweIforum">SWE Innovators Forum</NavLink></li>
     </>
 
 
