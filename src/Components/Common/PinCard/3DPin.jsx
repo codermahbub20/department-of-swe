@@ -43,7 +43,7 @@ export const Card = ({ className, children }) => {
     return (
         <div
             className={cn(
-                "rounded-2xl h-full w-full p-4 overflow-hidden bg-black border border-transparent dark:border-white/[0.2] group-hover:border-slate-700 relative z-20",
+                "rounded-2xl h-full w-full p-4 overflow-hidden bg-white text-black border border-slate-700  dark:border-white/[0.2] group-hover:border-red-700 relative z-20",
                 className
             )}
         >
@@ -56,7 +56,7 @@ export const Card = ({ className, children }) => {
 
 export const CardPicture = ({ className, children }) => {
     return (
-        <div className={cn("text-zinc-100 flex justify-center font-bold tracking-wide mt-4", className)}>
+        <div className={cn("text-black flex justify-center font-bold tracking-wide mt-4", className)}>
             <img className="h-40 w-36" src={children} alt="Card Title" /> {/* Render children as the image source */}
         </div>
     );
@@ -64,14 +64,14 @@ export const CardPicture = ({ className, children }) => {
 
 export const CardDescription = ({ className, children }) => {
     return (
-        <p className={cn("mt-8 text-center text-zinc-400 tracking-wide leading-relaxed text-base", className)}>
+        <p className={cn("mt-8 text-center text-black tracking-wide leading-relaxed text-base", className)}>
             {children}
         </p>
     );
 };
 export const CardTitle = ({ className, children }) => {
     return (
-        <p className={cn("mt-3 text-center text-zinc-400 tracking-wide leading-relaxed text-sm", className)}>
+        <p className={cn("mt-3 text-center text-black tracking-wide leading-relaxed text-sm", className)}>
             {children}
         </p>
     );

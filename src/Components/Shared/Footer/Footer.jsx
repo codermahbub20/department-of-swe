@@ -26,7 +26,7 @@ const Footer = () => {
                             </h2>
                             <ul className="text-black dark:text-gray-400 font-medium">
                                 <a href=""><li>Mission & Vision</li></a>
-                                <a href=""><li>History</li></a>
+                                <a href="head"><li>Message From Head</li></a>
                                 <a href=""><li>Award</li></a>
                                 <a href=""><li>About</li></a>
                                 <a href=""><li>Contact</li></a>
