@@ -34,14 +34,14 @@ const AboutUs = () => {
 
                 <div className="md:flex  justify-between mt-10 items-center">
                     <Link to="/head">
-                        <div className="py-3 px-8 rounded-lg bg-[#ac1e23] text-white flex items-center justify-between">
+                        <div className="py-3 px-8 rounded-lg bg-primary text-white flex items-center justify-between">
                             <button>Read More</button>
                             <IoIosArrowRoundForward />
                         </div>
                     </Link>
 
                     <Link to="/head">
-                        <div className="py-3 md:mt-0 mt-5 px-8 rounded-lg bg-[#ac1e23] items-center text-white flex justify-between">
+                        <div className="py-3 md:mt-0 mt-5 px-8 rounded-lg bg-primary items-center text-white flex justify-between">
                             <button>Head Message</button>
                             <IoIosArrowRoundForward />
                         </div>

@@ -18,6 +18,9 @@ export default {
           "100%": { transform: "translateX(200px)" },
         },
       },
+      colors: {
+        primary: "#ac1e23",
+      },
     },
   },
   plugins: [
